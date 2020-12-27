@@ -1,0 +1,42 @@
+/* (A) SCORE BOARD */
+#scoreBoard, #scoreTime, #scoreHome, 
+#scoreAway, #nameHome, #nameAway {
+  box-sizing: border-box;
+  padding: 10px;
+}
+#scoreBoard {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-gap: 5px;
+  margin: 0 auto;
+  max-width: 320px;
+  background: #333;
+  text-align: center;
+  font-weight: bold;
+}
+#scoreTime, #scoreHome, #scoreAway {
+  background: #000;
+  border: 2px solid #555;
+}
+#scoreTime {
+  color: #56b231;
+  font-size: 1.2em;
+  grid-column: span 2;
+}
+#scoreHome, #scoreAway {
+  color: #ff2b0f;
+  font-size: 2em;
+}
+#nameHome, #nameAway {
+  background: #ddd;
+  color: #333;
+  font-size: 1.1em;
+}
+
+/* [HISTORY] */
+#scoreHistory { margin-top: 10px; }
+#scoreHistory div { padding: 5px; }
+#scoreHistory div:nth-child(odd) { background-color: #f2f2f2; }
+
+/* (X) DOES NOT MATTER */
+html, body { font-family: arial, sans-serif; }

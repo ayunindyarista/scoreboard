@@ -1,0 +1,123 @@
+/* #btnhome {
+    background-color: #34495e;
+    width: 100%;
+    padding: 5px 0 10px 0;
+  } */
+
+
+.plushome {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 12px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+  }
+  .plushome:hover {
+    background-color: #4CAF50; /* Green */
+    color: white;
+  }
+  .plushome:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+
+  .minhome {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 12px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #af4c4c;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+  }
+  .minhome:hover {
+    background-color: #af4c4c; /* Green */
+    color: white;
+  }
+  .minhome:active {
+    background-color: #8e3e3e;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+
+
+  .plusaway {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 12px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+  }
+  .plusaway:hover {
+    background-color: #4CAF50; /* Green */
+    color: white;
+  }
+  .plusaway:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+
+  .minaway {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 12px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #af4c4c;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+  }
+  .minaway:hover {
+    background-color: #af4c4c; /* Green */
+    color: white;
+  }
+  .minaway:active {
+    background-color: #8e3e3e;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+
+  .home {
+      
+    background-color: #4CAF50;
+    color: white; 
+    border: 2px solid #4CAF50;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  
+  .away {
+    background-color: #4c8baf; 
+    color: white; 
+    border: 2px solid #4c8baf;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  
